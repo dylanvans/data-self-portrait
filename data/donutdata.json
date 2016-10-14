@@ -1,0 +1,1080 @@
+[
+	{
+		"date": "24/09",
+		"smartphoneUse": {
+			"checked": 75,
+			"minutesUsed": 119
+		},
+		"mood": [
+			{
+				"hour": 8,
+				"mood": 5
+			},
+			{
+				"hour": 11,
+				"mood": 8.6
+			},
+			{
+				"hour": 14,
+				"mood": 7
+			},
+			{
+				"hour": 17,
+				"mood": 7.7
+			},
+			{
+				"hour": 20,
+				"mood": 8.3
+			},
+			{
+				"hour": 23,
+				"mood": 9.4
+			}
+		],
+		"activities": 
+		[
+			{
+				"category": "friends",
+				"values":
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "15:00" 
+					},
+					{
+						"status": true,
+						"timeStart": "15:00",
+						"timeEnd": "17:00" 
+					},
+					{
+						"status": false,
+						"timeStart": "15:00",
+						"timeEnd": "19:00" 
+					},
+					{
+						"status": true,
+						"timeStart": "19:00",
+						"timeEnd": "23:00" 
+					},
+					{
+						"status": false,
+						"timeStart": "23:00",
+						"timeEnd": "24:00" 
+					}
+				]
+			},
+			{
+				"category": "sport",
+				"values":
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "13:00" 
+					},
+					{
+						"status": true,
+						"timeStart": "13:00",
+						"timeEnd": "17:00" 
+					},
+					{
+						"status": false,
+						"timeStart": "17:00",
+						"timeEnd": "24:00" 
+					}
+				]
+			},
+			{
+				"category": "partner",
+				"values": 
+				[
+					{
+						"status": true,
+						"timeStart": "00:00",
+						"timeEnd": "10:00" 
+					},
+					{
+						"status": false,
+						"timeStart": "11:00",
+						"timeEnd": "14:00" 
+					},
+					{
+						"status": true,
+						"timeStart": "14:00",
+						"timeEnd": "24:00"
+					}
+				]
+			},
+			{
+				"category": "family",
+				"values": 
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "12:00" 
+					},
+					{
+						"status": true,
+						"timeStart": "12:00",
+						"timeEnd": "17:00" 
+					},
+					{
+						"status": false,
+						"timeStart": "17:00",
+						"timeEnd": "24:00" 
+					}
+				]
+			},
+			{
+				"category": "school",
+				"values": 
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "24:00" 
+					}
+				]
+			}
+		]
+	},
+	{
+		"date": "03/10",
+		"smartphoneUse": {
+			"checked": 119,
+			"minutesUsed": 117
+		},
+		"mood": [
+			{
+				"hour": 8,
+				"mood": 6
+			},
+			{
+				"hour": 11,
+				"mood": 4
+			},
+			{
+				"hour": 14,
+				"mood": 8
+			},
+			{
+				"hour": 17,
+				"mood": 6.3
+			},
+			{
+				"hour": 20,
+				"mood": 8.5
+			},
+			{
+				"hour": 23,
+				"mood": 7.8
+			}
+		],
+		"activities": 
+		[
+			{
+				"category": "friends",
+				"values":
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "24:00" 
+					}
+				]
+			},
+			{
+				"category": "sport",
+				"values":
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "19:30" 
+					},
+					{
+						"status": true,
+						"timeStart": "19:30",
+						"timeEnd": "22:30" 
+					},
+					{
+						"status": false,
+						"timeStart": "22:30",
+						"timeEnd": "24:00" 
+					}
+				]
+			},
+			{
+				"category": "partner",
+				"values": 
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "10:00" 
+					},
+					{
+						"status": true,
+						"timeStart": "10:00",
+						"timeEnd": "17:30" 
+					},
+					{
+						"status": false,
+						"timeStart": "17:30",
+						"timeEnd": "24:00"
+					}
+				]
+			},
+			{
+				"category": "family",
+				"values": 
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "08:00" 
+					},
+					{
+						"status": true,
+						"timeStart": "08:00",
+						"timeEnd": "09:00" 
+					},
+					{
+						"status": false,
+						"timeStart": "09:00",
+						"timeEnd": "18:30" 
+					},
+					{
+						"status": true,
+						"timeStart": "18:30",
+						"timeEnd": "19:15" 
+					},
+					{
+						"status": false,
+						"timeStart": "19:15",
+						"timeEnd": "23:00" 
+					},
+					{
+						"status": true,
+						"timeStart": "23:00",
+						"timeEnd": "24:00" 
+					}
+				]
+			},
+			{
+				"category": "school",
+				"values": 
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "10:30" 
+					},
+					{
+						"status": true,
+						"timeStart": "10:00",
+						"timeEnd": "11:30" 
+					},
+					{
+						"status": false,
+						"timeStart": "11:30",
+						"timeEnd": "15:00" 
+					},
+					{
+						"status": true,
+						"timeStart": "15:00",
+						"timeEnd": "17:30" 
+					},
+					{
+						"status": false,
+						"timeStart": "17:30",
+						"timeEnd": "24:00"
+					}
+				]
+			}
+		]
+	},
+	{
+		"date": "04/10",
+		"smartphoneUse": {
+			"checked": 100,
+			"minutesUsed": 131
+		},
+		"mood": [
+			{
+				"hour": 8,
+				"mood": 6
+			},
+			{
+				"hour": 11,
+				"mood": 6.6
+			},
+			{
+				"hour": 14,
+				"mood": 7
+			},
+			{
+				"hour": 17,
+				"mood": 8.6
+			},
+			{
+				"hour": 20,
+				"mood": 9.7
+			},
+			{
+				"hour": 23,
+				"mood": 9.2
+			}
+		],
+		"activities": 
+		[
+			{
+				"category": "friends",
+				"values":
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "24:00" 
+					}
+				]
+			},
+			{
+				"category": "sport",
+				"values":
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "24:00" 
+					}
+				]
+			},
+			{
+				"category": "partner",
+				"values": 
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "14:30" 
+					},
+					{
+						"status": true,
+						"timeStart": "15:00",
+						"timeEnd": "24:00"
+					}
+				]
+			},
+			{
+				"category": "family",
+				"values": 
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "08:00" 
+					},
+					{
+						"status": true,
+						"timeStart": "08:00",
+						"timeEnd": "10:00" 
+					},
+					{
+						"status": false,
+						"timeStart": "10:00",
+						"timeEnd": "16:00" 
+					},
+					{
+						"status": true,
+						"timeStart": "16:00",
+						"timeEnd": "21:00" 
+					},
+					{
+						"status": false,
+						"timeStart": "21:00",
+						"timeEnd": "24:00" 
+					}
+				]
+			},
+			{
+				"category": "school",
+				"values": 
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "24:00" 
+					}
+				]
+			}
+		]
+	},
+	{
+		"date": "05/10",
+		"smartphoneUse": {
+			"checked": 113,
+			"minutesUsed": 82
+		},
+		"mood": [
+			{
+				"hour": 8,
+				"mood": 8.7
+			},
+			{
+				"hour": 11,
+				"mood": 8.9
+			},
+			{
+				"hour": 14,
+				"mood": 8
+			},
+			{
+				"hour": 17,
+				"mood": 7
+			},
+			{
+				"hour": 20,
+				"mood": 7.5
+			},
+			{
+				"hour": 23,
+				"mood": 6.3
+			}
+		],
+		"activities": 
+		[
+			{
+				"category": "friends",
+				"values":
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "22:00" 
+					},
+					{
+						"status": true,
+						"timeStart": "22:00",
+						"timeEnd": "23:00"
+					},
+					{
+						"status": false,
+						"timeStart": "23:00",
+						"timeEnd": "24:00"
+					}
+				]
+			},
+			{
+				"category": "sport",
+				"values":
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "19:30" 
+					},
+					{
+						"status": true,
+						"timeStart": "19:30",
+						"timeEnd": "23:00"
+					},
+					{
+						"status": false,
+						"timeStart": "23:00",
+						"timeEnd": "24:00"
+					}
+				]
+			},
+			{
+				"category": "partner",
+				"values": 
+				[
+					{
+						"status": true,
+						"timeStart": "00:00",
+						"timeEnd": "17:00" 
+					},
+					{
+						"status": false,
+						"timeStart": "17:00",
+						"timeEnd": "24:00"
+					}
+				]
+			},
+			{
+				"category": "family",
+				"values": 
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "18:00" 
+					},
+					{
+						"status": true,
+						"timeStart": "18:00",
+						"timeEnd": "19:00" 
+					},
+					{
+						"status": false,
+						"timeStart": "19:00",
+						"timeEnd": "23:00" 
+					},
+					{
+						"status": true,
+						"timeStart": "23:00",
+						"timeEnd": "24:00" 
+					}
+				]
+			},
+			{
+				"category": "school",
+				"values": 
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "15:20" 
+					},
+					{
+						"status": true,
+						"timeStart": "15:20",
+						"timeEnd": "17:00" 
+					},
+					{
+						"status": false,
+						"timeStart": "17:00",
+						"timeEnd": "24:00" 
+					}
+				]
+			}
+		]
+	},
+	{
+		"date": "06/10",
+		"smartphoneUse": {
+			"checked": 129,
+			"minutesUsed": 83
+		},
+		"mood": [
+			{
+				"hour": 8,
+				"mood": 4
+			},
+			{
+				"hour": 11,
+				"mood": 4.5
+			},
+			{
+				"hour": 14,
+				"mood": 7
+			},
+			{
+				"hour": 17,
+				"mood": 6.8
+			},
+			{
+				"hour": 20,
+				"mood": 9
+			},
+			{
+				"hour": 23,
+				"mood": 9.4
+			}
+		],
+		"activities": 
+		[
+			{
+				"category": "friends",
+				"values":
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "12:00" 
+					},
+					{
+						"status": true,
+						"timeStart": "12:00",
+						"timeEnd": "14:00"
+					},
+					{
+						"status": false,
+						"timeStart": "14:00",
+						"timeEnd": "24:00"
+					}
+				]
+			},
+			{
+				"category": "sport",
+				"values":
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "24:00" 
+					}
+				]
+			},
+			{
+				"category": "partner",
+				"values": 
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "12:00" 
+					},
+					{
+						"status": true,
+						"timeStart": "12:00",
+						"timeEnd": "24:00"
+					}
+				]
+			},
+			{
+				"category": "family",
+				"values": 
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "07:00" 
+					},
+					{
+						"status": true,
+						"timeStart": "07:00",
+						"timeEnd": "08:00" 
+					},
+					{
+						"status": false,
+						"timeStart": "08:00",
+						"timeEnd": "17:00" 
+					},
+					{
+						"status": true,
+						"timeStart": "17:00",
+						"timeEnd": "22:00" 
+					},
+					{
+						"status": false,
+						"timeStart": "22:00",
+						"timeEnd": "24:00" 
+					}
+				]
+			},
+			{
+				"category": "school",
+				"values": 
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "09:00" 
+					},
+					{
+						"status": true,
+						"timeStart": "09:00",
+						"timeEnd": "12:00" 
+					},
+					{
+						"status": false,
+						"timeStart": "12:00",
+						"timeEnd": "14:00" 
+					},
+					{
+						"status": true,
+						"timeStart": "14:00",
+						"timeEnd": "16:00" 
+					},
+					{
+						"status": false,
+						"timeStart": "16:00",
+						"timeEnd": "24:00" 
+					}
+				]
+			}
+		]
+	},
+	{
+		"date": "07/10",
+		"smartphoneUse": {
+			"checked": 112,
+			"minutesUsed": 125
+		},
+		"mood": [
+			{
+				"hour": 8,
+				"mood": 6.5
+			},
+			{
+				"hour": 11,
+				"mood": 8.3
+			},
+			{
+				"hour": 14,
+				"mood": 8.6
+			},
+			{
+				"hour": 17,
+				"mood": 7.6
+			},
+			{
+				"hour": 20,
+				"mood": 6
+			},
+			{
+				"hour": 23,
+				"mood": 8.4
+			}
+		],
+		"activities": 
+		[
+						{
+				"category": "friends",
+				"values":
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "24:00" 
+					}
+				]
+			},
+			{
+				"category": "sport",
+				"values":
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "24:00" 
+					}
+				]
+			},
+			{
+				"category": "partner",
+				"values": 
+				[
+					{
+						"status": true,
+						"timeStart": "00:00",
+						"timeEnd": "12:00" 
+					},
+					{
+						"status": false,
+						"timeStart": "12:00",
+						"timeEnd": "22:00"
+					},
+					{
+						"status": true,
+						"timeStart": "22:00",
+						"timeEnd": "24:00"
+					}
+				]
+			},
+			{
+				"category": "family",
+				"values": 
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "15:00" 
+					},
+					{
+						"status": true,
+						"timeStart": "15:00",
+						"timeEnd": "18:00" 
+					},
+					{
+						"status": false,
+						"timeStart": "18:00",
+						"timeEnd": "20:00" 
+					},
+					{
+						"status": true,
+						"timeStart": "20:00",
+						"timeEnd": "21:00" 
+					},
+					{
+						"status": false,
+						"timeStart": "21:00",
+						"timeEnd": "24:00" 
+					}
+				]
+			},
+			{
+				"category": "school",
+				"values": 
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "24:00" 
+					}
+				]
+			}
+		]
+	},
+	{
+		"date": "08/10",
+		"smartphoneUse": {
+			"checked": 63,
+			"minutesUsed": 48
+		},
+		"mood": [
+			{
+				"hour": 8,
+				"mood": 8
+			},
+			{
+				"hour": 11,
+				"mood": 6.5
+			},
+			{
+				"hour": 14,
+				"mood": 8
+			},
+			{
+				"hour": 17,
+				"mood": 8.5
+			},
+			{
+				"hour": 20,
+				"mood": 9
+			},
+			{
+				"hour": 23,
+				"mood": 9.4
+			}
+		],
+		"activities": 
+		[
+			{
+				"category": "friends",
+				"values":
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "11:00" 
+					},
+					{
+						"status": true,
+						"timeStart": "11:00",
+						"timeEnd": "17:00"
+					},
+					{
+						"status": false,
+						"timeStart": "17:00",
+						"timeEnd": "20:00"
+					},
+					{
+						"status": true,
+						"timeStart": "20:00",
+						"timeEnd": "24:00"
+					}
+				]
+			},
+			{
+				"category": "sport",
+				"values":
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "24:00" 
+					}
+				]
+			},
+			{
+				"category": "partner",
+				"values": 
+				[
+					{
+						"status": true,
+						"timeStart": "00:00",
+						"timeEnd": "24:00" 
+					}
+				]
+			},
+			{
+				"category": "family",
+				"values": 
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "24:00" 
+					}
+				]
+			},
+			{
+				"category": "school",
+				"values": 
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "24:00" 
+					}
+				]
+			}
+		]
+	},
+	{
+		"date": "09/10",
+		"smartphoneUse": {
+			"checked": 89,
+			"minutesUsed": 86
+		},
+		"mood": [
+			{
+				"hour": 8,
+				"mood": 9.4
+			},
+			{
+				"hour": 11,
+				"mood": 9
+			},
+			{
+				"hour": 14,
+				"mood": 7.3
+			},
+			{
+				"hour": 17,
+				"mood": 2
+			},
+			{
+				"hour": 20,
+				"mood": 2.4
+			},
+			{
+				"hour": 23,
+				"mood": 4
+			}
+		],
+		"activities": 
+		[
+			{
+				"category": "friends",
+				"values":
+				[
+					{
+						"status": true,
+						"timeStart": "00:00",
+						"timeEnd": "01:00" 
+					},
+					{
+						"status": false,
+						"timeStart": "01:00",
+						"timeEnd": "17:00" 
+					},
+					{
+						"status": true,
+						"timeStart": "17:00",
+						"timeEnd": "18:00"
+					},
+					{
+						"status": false,
+						"timeStart": "18:00",
+						"timeEnd": "24:00"
+					}
+				]
+			},
+			{
+				"category": "sport",
+				"values":
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "13:00" 
+					},
+					{
+						"status": true,
+						"timeStart": "13:00",
+						"timeEnd": "18:00" 
+					},
+					{
+						"status": false,
+						"timeStart": "18:00",
+						"timeEnd": "24:00" 
+					}
+				]
+			},
+			{
+				"category": "partner",
+				"values": 
+				[
+					{
+						"status": true,
+						"timeStart": "00:00",
+						"timeEnd": "12:00" 
+					},
+					{
+						"status": false,
+						"timeStart": "12:00",
+						"timeEnd": "24:00" 
+					}
+				]
+			},
+			{
+				"category": "family",
+				"values": 
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "09:00" 
+					},
+					{
+						"status": true,
+						"timeStart": "09:00",
+						"timeEnd": "12:00" 
+					},
+					{
+						"status": false,
+						"timeStart": "12:00",
+						"timeEnd": "14:30" 
+					},
+					{
+						"status": true,
+						"timeStart": "14:30",
+						"timeEnd": "17:00" 
+					},
+					{
+						"status": false,
+						"timeStart": "17:00",
+						"timeEnd": "19:00" 
+					},
+					{
+						"status": true,
+						"timeStart": "19:00",
+						"timeEnd": "22:00" 
+					},
+					{
+						"status": false,
+						"timeStart": "22:00",
+						"timeEnd": "24:00" 
+					}
+				]
+			},
+			{
+				"category": "school",
+				"values": 
+				[
+					{
+						"status": false,
+						"timeStart": "00:00",
+						"timeEnd": "24:00" 
+					}
+				]
+			}
+		]
+	}
+]

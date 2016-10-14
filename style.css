@@ -1,0 +1,396 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, button, datalist, input, select, textarea, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figcaption, figure, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 0;
+  border-color: #000;
+  border-style: solid;
+  float: none;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  text-align: inherit;
+  vertical-align: baseline;
+  white-space: inherit; }
+
+html, body {
+  height: 100%; }
+
+html, button, datalist, input, select, textarea {
+  -webkit-font-smoothing: antialiased; }
+
+html {
+  overflow-y: scroll; }
+
+body {
+  background: #fff;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  word-wrap: break-word; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed; }
+
+th, td, textarea {
+  vertical-align: top; }
+
+th {
+  font-weight: bold;
+  text-align: left; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none; }
+
+pre, code, kbd, samp, button, datalist, input, select, textarea, .default {
+  font-size: 1em; }
+
+pre, code, kbd, samp {
+  font-family: monospace, monospace; }
+
+strong, b {
+  font-weight: bold; }
+
+em, i, dfn, span[lang], .special {
+  font-style: italic; }
+
+img, video, object, iframe, legend, datalist, input, select, textarea, label, article, aside, audio, canvas, details, figcaption, figure, footer, header, hgroup, marquee, menu, nav, section, svg, video, .block, .wrap, .group, .paragraph {
+  display: block; }
+
+img, video, object, iframe {
+  max-width: 100%; }
+
+img, video {
+  height: auto;
+  width: auto; }
+
+ol, ul {
+  list-style-position: outside; }
+
+ol {
+  list-style-type: decimal; }
+
+ul {
+  list-style-type: disc; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative; }
+
+sub {
+  bottom: -.25em; }
+
+sup {
+  top: -.5em; }
+
+legend {
+  white-space: normal; }
+
+label, .label {
+  margin-bottom: .25em; }
+
+textarea {
+  min-height: 8em;
+  overflow: auto;
+  -moz-resize: vertical;
+  resize: vertical; }
+
+button, datalist, input, select, textarea, legend, label, .label {
+  line-height: normal; }
+
+button, datalist, input, select, textarea {
+  border-radius: 0;
+  border-width: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+  margin: 0; }
+
+button, input[type="button"], input[type="submit"], input[type="checkbox"], input[type="file"], input[type="radio"], input[type="reset"], label, select, a {
+  cursor: pointer; }
+
+button, html input[type="button"], input[type="submit"], input[type="reset"] {
+  -webkit-appearance: button;
+  background-color: transparent;
+  display: inline-block;
+  font-weight: bold;
+  overflow: visible;
+  vertical-align: top;
+  width: auto; }
+
+button[disabled], input[disabled] {
+  cursor: default; }
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border-width: 0;
+  padding: 0; }
+
+datalist, input, select, textarea, fieldset, legend, table, .full {
+  width: 100%; }
+
+input[type="text"], input[type="number"], input[type="email"], input[type="tel"], input[type="url"], input[type="password"] {
+  -moz-appearance: none;
+  -webkit-appearance: none; }
+
+/* remove mobile input shadow */
+input[type="checkbox"], input[type="radio"] {
+  background-color: transparent;
+  border-width: 0;
+  box-shadow: none;
+  float: left;
+  margin: .075em .5em 0 0;
+  padding: 0;
+  width: auto; }
+
+input[type="checkbox"]:focus, input[type="radio"]:focus {
+  background-color: transparent; }
+
+input[type="checkbox"] + label, input[type="radio"] + label {
+  float: left;
+  margin-bottom: 0; }
+
+input[type="search"] {
+  -webkit-appearance: textfield; }
+
+input[type="search"]::-webkit-search-decoration {
+  display: none; }
+
+select {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+:focus, :active {
+  transition: none; }
+
+:focus {
+  outline: none; }
+
+* {
+  font-family: 'raleway'; }
+
+body {
+  margin: 0; }
+
+.section-inner {
+  max-width: 75em;
+  position: relative;
+  margin: 0 auto;
+  padding: 1.8rem;
+  box-sizing: border-box; }
+
+.chapter-header {
+  background-color: #eeeeee; }
+
+.intro-heading {
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 2.5em;
+  text-transform: uppercase; }
+
+.intro-sub-heading {
+  font-family: "Raleway";
+  font-size: 1.5em; }
+
+.chapter-heading {
+  font-family: "Raleway";
+  font-size: 1.3em;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0.45rem 0; }
+
+.container-navigation {
+  background-color: #eeeeee;
+  padding-bottom: 5px; }
+
+.nav-link {
+  display: inline-block;
+  padding: 0.45rem 0.9rem;
+  background-color: #333333;
+  transition: all .3s ease-in-out; }
+
+.nav-link a {
+  color: white;
+  font-family: "Raleway";
+  text-decoration: none; }
+
+.active-link {
+  background-color: #ddd;
+  box-shadow: 0 6px 0 -3px #333333;
+  z-index: 1000; }
+
+.active-link a {
+  color: #333333; }
+
+.carousel-viewport {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.carousel {
+  min-height: 100%;
+  position: absolute;
+  overflow: hidden;
+  background-image: url("../assets/background1.png");
+  background-position: 0% 100%;
+  background-attachment: fixed;
+  transition: background-position .5s ease-in-out; }
+
+.container-chapters {
+  width: 100%;
+  transition: transform .5s ease-in-out; }
+
+.chapter {
+  display: inline-block;
+  float: left;
+  height: 100%; }
+
+.chapter-header-1 {
+  background-color: #7f9ed0; }
+  .chapter-header-1 .chapter-heading {
+    color: white; }
+
+.arrow {
+  position: absolute;
+  transition: all 0.5s ease-in-out;
+  height: 0;
+  width: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent; }
+
+.arrow-right {
+  right: 0;
+  border-left: 15px solid #333333;
+  box-shadow: -2px 0 0 0 #333333; }
+  .arrow-right:hover {
+    cursor: pointer;
+    box-shadow: -10px 0px 0 0px #333333; }
+
+.arrow-left {
+  left: 0;
+  border-right: 15px solid #333333;
+  box-shadow: 2px 0px 0 0px #333333; }
+  .arrow-left:hover {
+    box-shadow: 10px 0px 0 0px #333333;
+    cursor: pointer; }
+
+p, h1, h2, label {
+  color: #333333; }
+
+text {
+  fill: #727272; }
+
+.label {
+  font-size: .8em;
+  font-weight: 600; }
+
+.intro-text {
+  margin-top: 2.7rem;
+  font-family: "Raleway"; }
+
+.container-grafiek1 {
+  display: flex; }
+
+.container-controls {
+  width: 100%;
+  padding: 0.9rem 2.7rem; }
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #727272;
+  shape-rendering: crispEdges; }
+
+.legend-circle {
+  margin: 1.8rem 0;
+  font-family: "Raleway"; }
+
+.legend-circle:after {
+  content: '';
+  width: 50px;
+  height: 50px;
+  background-color: #698dc8;
+  border-radius: 100%;
+  position: absolute;
+  transform: translate(25%, -35%); }
+
+.catvrienden {
+  fill: #d392a3; }
+
+.catfamilie {
+  fill: #2a3f6c; }
+
+.catsport {
+  fill: #698dc8; }
+
+.catrelatie {
+  fill: #d84875; }
+
+.catschool {
+  fill: #9a4f66; }
+
+.check-vrienden {
+  background-color: #dca8b5; }
+
+.check-familie {
+  background-color: #3b5998; }
+
+.check-sport {
+  background-color: #96afd8; }
+
+.check-relatie {
+  background-color: #e37a9b; }
+
+.check-school {
+  background-color: #b67086; }
+
+.container-category-checkbox {
+  padding: 0.54rem 0.9rem;
+  max-width: 115px; }
+
+.container-checkboxes {
+  margin-bottom: 0.9rem; }
+
+.category-label {
+  font-weight: 600;
+  color: white;
+  font-family: "Raleway";
+  float: none !important; }
+
+.map-path {
+  fill: #a2a2a2; }
+
+.niks {
+  fill: #eee; }
+
+.wel {
+  fill: red; }
+
+.tooltip {
+  min-height: 150px;
+  font-family: "Raleway";
+  margin-bottom: 0.9rem;
+  background-color: #eeeeee;
+  opacity: 0;
+  transition: opacity .2s ease-in-out;
+  padding: 0.9rem;
+  pointer-events: none; }
+
+.active-tooltip {
+  opacity: 1; }
+
+.tooltip-text {
+  margin: 0.9rem 0 0;
+  color: #333333; }
+
+.tooltip-text:first-of-type {
+  margin: 0; }
+
+.tooltip-text span {
+  font-weight: 600; }

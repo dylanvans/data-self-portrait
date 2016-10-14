@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Toets 2</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="js-carousel">
+		<div class="container-navigation js-nav">
+			<nav class="navigation-carousel">
+  				<ul class="nav-list">
+		  			<li class="nav-link js-nav-link"><a href="#">Intro</a></li>
+		  			<li class="nav-link js-nav-link"><a href="#">Per Event</a></li>
+		  			<li class="nav-link js-nav-link"><a href="#">Per Uur</a></li>
+		  			<li class="nav-link js-nav-link"><a href="#">Per Locatie</a></li>
+		  		</ul>
+		  	</nav> 
+	  	</div>
+	  	<div class="container-carousel">
+			<div class="carousel-viewport">
+			  	<div class="container-chapters">	
+					<section class="chapter">
+						<div class="section-inner">
+							<h1 class="intro-heading">Data self-portrait</h1>
+							<h2 class="intro-sub-heading">Dylan van Sprang</h2>
+							<p class="intro-text">Intro tekst</p>
+						</div>
+					</section>
+					<section class="chapter">
+						<div class="chapter-header chapter-header-1">
+							<div class="section-inner">
+								<h2 class="chapter-heading">Invloed van aantal mensen per event op gemoedstoestand op een tienpuntsschaal</h2>
+							</div>
+						</div>
+						<div class="section-inner">
+							
+							<div class="container-grafiek1 container-grafiek" id="container-grafiek1">
+								<div id="container-scatterplot"></div>
+								<div class="container-controls">
+									<div class="tooltip tooltip-scatter">
+										
+									</div>
+									<div class="legend">
+										<div><p>Grootte van bubbel:</p></div>
+										<div class="container-radio-radius">
+											<input checked class="input-radius" type="radio" name="radius" value="d.totalPeople" id="total-people">
+											<label class="label-radius btn" for="total-people">Aantal mensen</label>
+											<input class="input-radius" type="radio" name="radius" value="d.duration" id="event-duration">
+											<label class="label-radius btn" for="event-duration">Duur van event</label>	
+										</div>
+										<div>
+											<p class="legend-circle">5 = </p>
+										</div>
+									</div>
+									<div class="container-checkboxes">
+										<div class="container-category-checkbox check-familie">
+											<input checked class="category-checkbox" type="checkbox" name="category" id="familie" value="familie">
+											<label class="category-label" for="familie">Familie</label>
+										</div>
+										<div class="container-category-checkbox check-sport">			
+											<input checked class="category-checkbox" type="checkbox" name="category" id="sport" value="sport">
+											<label class="category-label" for="sport">Sport</label>
+										</div>
+										<div class="container-category-checkbox check-vrienden">
+											<input checked class="category-checkbox" type="checkbox" name="category" id="vrienden" value="vrienden">
+											<label class="category-label" for="vrienden">Vrienden</label>
+										</div>
+										<div class="container-category-checkbox check-relatie">				
+											<input checked class="category-checkbox" type="checkbox" name="category" id="relatie" value="relatie">
+											<label class="category-label" for="relatie">Relatie</label>
+										</div>
+										<div class="container-category-checkbox check-school">
+											<input checked class="category-checkbox" type="checkbox" name="category" id="school" value="school">
+											<label class="category-label" for="school">School</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>					
+					</section>
+					<section class="chapter">
+						<div class="chapter-header chapter-header-3">
+							<div class="section-inner">
+								<h2 class="chapter-heading">Invloed van verschillende relaties per uur</h2>
+							</div>
+						</div>
+						<div class="section-inner">
+							<div class="container-grafiek3 container-grafiek" id="container-grafiek3">
+								<div class="container-date-control">
+									<button class="btn-prev date-btn">Vorige</button>
+									<div class="container-date">
+										<p class="js-date"></p>
+									</div>
+									<button class="btn-next date-btn">Volgende</button>
+								</div>
+								<div id="container-donut-chart">
+								</div>
+								<div id="container-line-chart">
+								</div>
+								<div class="container-legend">
+									<div class="legend-label check-familie">
+										<p>Familie</p>
+									</div>
+									<div class="legend-label check-sport">
+										<p>Sport</p>
+									</div>
+									<div class="legend-label check-vrienden">
+										<p>Vrienden</p>
+									</div>
+									<div class="legend-label check-relatie">
+										<p>Relatie</p>
+									</div>
+									<div class="legend-label check-school">
+										<p>School</p>
+									</div>
+								</div>
+							</div>
+
+						</div>					
+					</section>	
+					<section class="chapter">
+						<div class="chapter-header chapter-header-2">
+							<div class="section-inner">
+								<h2 class="chapter-heading">Invloed van aantal mensen per event op gemoedstoestand van 0 t/m 10</h2>
+							</div>
+						</div>
+						<div class="section-inner">
+							
+							<div class="container-grafiek2 container-grafiek" id="container-grafiek2">
+								<div id="container-location-map"></div>
+								<div class="container-controls">
+									<div class="tooltip tooltip-map">
+									</div>
+								</div>
+							</div>
+						</div>					
+					</section>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<script src="../topojson.v1.js"></script>
+	<script src="d3.min.js"></script>
+	<script src="jquery-3.1.0.min.js"></script>
+	<script src="script.js"></script>
+
+</body>
+</html>

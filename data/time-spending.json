@@ -1,0 +1,95 @@
+[
+	{
+		"category": "school",
+		"values": [
+			{
+				"event": "alone",
+				"duration": "8"
+			},
+			{
+				"event": "school",
+				"duration": "2"
+			},
+			{
+				"event": "alone",
+				"duration": "14"
+			}
+		]
+	},
+	{
+		"category": "sport",
+		"values": [
+			{
+				"event": "alone",
+				"duration": "4"
+			},
+			{
+				"event": "sport",
+				"duration": "9"
+			},
+			{
+				"event": "alone",
+				"duration": "11"
+			}
+		]
+	},
+	{
+		"category": "relatie",
+		"values": [
+			{
+				"event": "alone",
+				"duration": "9"
+			},
+			{
+				"event": "relatie",
+				"duration": "7"
+			},
+			{
+				"event": "alone",
+				"duration": "8"
+			}
+		]
+	},
+	{
+		"category": "familie",
+		"values": [
+			{
+				"event": "alone",
+				"duration": "9"
+			},
+			{
+				"event": "familie",
+				"duration": "3"
+			},
+			{
+				"event": "alone",
+				"duration": "4"
+			},
+			{
+				"event": "familie",
+				"duration": "8"
+			}
+		]
+	},
+	{
+		"category": "vrienden",
+		"values": [
+			{
+				"event": "alone",
+				"duration": "9"
+			},
+			{
+				"event": "vrienden",
+				"duration": "3"
+			},
+			{
+				"event": "alone",
+				"duration": "4"
+			},
+			{
+				"event": "vrienden",
+				"duration": "8"
+			}
+		]
+	}
+]

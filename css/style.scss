@@ -1,0 +1,495 @@
+$color-vrienden: #d392a3; 
+$color-familie: #2a3f6c; 
+$color-relatie: #9a4f66;
+$color-sport: #698dc8; 
+$color-school: #D16B6B; 
+
+$grey-light: #eee;
+$grey: #333;
+$sub-grey: #ddd;
+
+$main-font: 'Raleway';
+
+$margin: 0.9rem;
+
+@import "normalize";
+
+*, p {
+	font-family: 'raleway';
+}
+
+body {
+	margin: 0;
+}
+
+.section-inner { 
+	max-width: 75em;
+	position: relative;
+	margin: 0 auto;
+	padding: $margin*2;
+	box-sizing: border-box;
+}
+
+.chapter-header {
+	background-color: $grey-light;
+}
+
+.chapter-header-3 {
+	background-color: $color-relatie;
+
+	h2 {
+		color: white;	
+	}	
+}
+
+
+
+// ========================================================
+// Headings
+// ========================================================
+.intro-heading {
+	font-family: $main-font;
+	font-weight: 600;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	margin-top: $margin*4;
+}
+
+.intro-sub-heading {
+	font-family: $main-font;
+	font-size: 1.5em;
+}
+
+.chapter-heading {
+	font-family: $main-font;
+	font-size: 1.3em;
+	text-align: center;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: $margin*2.5 0 $margin*.3 0;
+}
+
+
+
+
+// ========================================================
+// Navigation
+// ========================================================
+.container-navigation {
+	position: absolute;
+	padding-bottom: 5px;
+	z-index: 10;
+}
+
+.nav-link {
+	display: inline-block;
+	padding: $margin*.5 $margin;
+	background-color: $grey;
+	transition: all .3s ease-in-out;
+}
+
+.nav-link a {
+	color: white;
+	font-family: $main-font;
+	text-decoration: none;
+}
+
+.active-link {
+	background-color: $sub-grey;
+	box-shadow: 0 6px 0 -3px $grey;
+	z-index: 1000;
+}
+
+.active-link a {
+	color: $grey;
+}
+
+
+
+// ========================================================
+// Carousel
+// ========================================================
+.js-carousel {
+	position: relative
+}
+
+.container-carousel {
+	z-index: 0;
+}
+
+.carousel-viewport {
+	width: 100%;
+	height: 100%;	
+	overflow: hidden;
+}
+
+.carousel {
+	min-height: 100%;
+	position: absolute;
+	overflow: hidden;
+	background-image: url('../assets/background1.png');
+	background-position: 0% 100%;
+	background-attachment: fixed;
+	transition: background-position .5s ease-in-out;
+}
+
+.container-chapters {
+	width: 100%;
+	transition: transform .5s ease-in-out;
+}
+
+.chapter {
+	display: inline-block;
+	float: left;
+	height: 100%;
+}
+
+.chapter-header-1 {
+	background-color: lighten($color-sport, 6);
+
+	.chapter-heading {
+		color: white;
+	}
+}
+
+.arrow {
+	position: absolute;
+	transition: all 0.5s ease-in-out;
+	height: 0;
+	width: 0;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+}
+
+.arrow-right {
+	right: 0;
+	border-left: 15px solid $grey;
+	box-shadow: -2px 0 0 0 $grey;
+
+	&:hover {
+		cursor: pointer;
+		box-shadow: -10px 0px 0 0px $grey;
+	}
+}
+
+.arrow-left {
+	left: 0;
+	border-right: 15px solid $grey;
+	box-shadow: 2px 0px 0 0px $grey;
+
+	&:hover {
+		box-shadow: 10px 0px 0 0px $grey;
+		cursor: pointer;
+	}
+}
+
+
+
+// ========================================================
+// Text
+// ========================================================
+p, h1, h2, label {
+	color: $grey;
+}
+
+text {
+	fill: #727272;
+}
+
+.label {
+	font-size: .8em;
+	font-weight: 600;
+}
+
+
+// ========================================================
+// Intro
+// ========================================================
+.intro-text {
+	margin-top: $margin*3;
+	font-family: $main-font;
+}
+
+
+
+// ========================================================
+// Scatterplot
+// ========================================================
+.container-grafiek {
+	display: flex;
+	position: relative;
+}
+
+.container-controls {
+	width: 100%;
+	padding: $margin $margin*3;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke:  #727272;
+    shape-rendering: crispEdges;
+}
+
+.legend {
+	display: flex;
+	flex-direction: column;
+}
+
+.input-radius {
+	display: none;
+}
+
+.input-radius:checked + .label-radius {
+	background-color: $grey;
+	color: white;
+	cursor: initial;
+}
+
+.label-radius {
+	font-size: .7em !important;
+}
+
+.legend-circle {
+	margin: $margin*2 0;
+	font-family: $main-font;
+}
+
+.legend-circle:after {
+	content:'';
+	width: 50px;
+	height: 50px;
+	background-color: #698dc8;
+	border-radius: 100%;
+	position: absolute;
+	transform: translate(25%, -35%);
+}
+
+.data-point {
+	transition: all .3s ease-in-out;
+}
+
+.data-point:hover {
+	cursor: pointer;
+}
+
+.catvrienden {
+	fill: $color-vrienden;
+}
+
+.catfamilie {
+	fill: $color-familie;
+}
+
+.catsport {
+	fill: $color-sport;
+}
+
+.catrelatie {
+	fill: $color-relatie;
+}
+
+.catschool {
+	fill: $color-school;
+}
+
+.check-vrienden {
+	background-color: lighten($color-vrienden, 6);
+}
+
+.check-familie {
+	background-color: lighten($color-familie, 12);
+}
+
+.check-sport {
+	background-color: lighten($color-sport, 12);
+}
+
+.check-relatie {
+	background-color: lighten($color-relatie, 12);
+}
+
+.check-school {
+	background-color: lighten($color-school, 6);
+}
+
+.container-category-checkbox, .legend-label {
+	padding: $margin*.5 $margin;
+	max-width: 90px;
+}
+
+.container-checkboxes {
+	margin-bottom: $margin;
+}
+
+.category-label, .legend-label p {
+	font-weight: 600;
+	color: white;
+	font-size: .9em;
+	font-family: $main-font;
+	float: none !important;
+}
+
+
+
+// ========================================================
+// Map
+// ========================================================
+.map-path {
+	fill: darken($grey-light, 30);
+}
+
+
+
+// ========================================================
+// Donut Chart
+// ========================================================
+.container-date-control {
+	display: flex;
+	position: absolute;
+}
+
+.container-date {
+	margin: 0 $margin*.5;
+	background-color: $sub-grey;
+	text-align: center;
+	padding: $margin*.5;
+}
+
+.container-legend {
+	position: absolute;
+	bottom: 0;
+}
+
+.date-btn {
+	background-color: $color-relatie;
+	color: white;
+}
+
+.date-btn:hover {
+	background-color: $grey;
+	color: white
+}
+
+.js-date {
+	font-weight: 600;
+}
+
+.axis-line line {
+	stroke: #D5D4D4;
+}
+
+.line {
+	stroke: $color-school;
+	stroke-width: 3;
+	transition: all .2s ease-in-out;
+}
+
+.line:hover {
+	stroke: darken($color-school, 20);
+}
+
+.bar-chart-rect {
+	fill: darken($color-relatie, 15);
+	opacity: .2;
+	transition: all .2s ease-in-out;
+}
+
+.active-bar {
+	opacity: 1;
+}
+
+.group-line-chart .tick text, .group-bar-chart .tick text {
+	font-size: .8em;
+}
+
+.label-line, .label-bar {
+	font-size: .65em;
+}
+
+.arc-group {
+	transition: all .3s ease-in-out;
+}
+
+.alone-session {
+  fill: #EDEDED;
+}
+
+.family-session {
+  fill: $color-familie;
+}
+
+.partner-session {
+  fill: $color-relatie;
+}
+
+.sport-session {
+  fill: $color-sport;
+}
+
+.school-session {
+  fill: $color-school;
+}
+
+.friends-session {
+  fill: $color-vrienden;
+}
+
+// ========================================================
+// Tooltip
+// ========================================================
+.tooltip {
+	min-height: 130px;
+	font-family: $main-font;
+	margin-bottom: $margin;
+	background-color: $grey-light;
+	opacity: 0;
+	transition: opacity .2s ease-in-out;
+	padding: $margin;
+	pointer-events: none;
+}
+
+.active-tooltip {
+	opacity: 1;
+}
+
+.tooltip-text {
+	margin: $margin 0 0;
+	color: $grey;
+}
+
+.tooltip-text:first-of-type {
+	margin: 0;
+}
+
+.tooltip-text span {
+	font-weight: 600;
+}
+
+//buttons
+
+button, .btn { 
+	background-color: $sub-grey; 
+	color: #000; 
+	font-family: $main-font;
+	padding: .6*$margin;
+	font-weight: 600; 
+	font-size: .8em;
+	text-transform: uppercase;
+	text-align: center; 
+	text-decoration: none;
+	display: inline-block;
+	transition: all .2s ease-in-out;
+}
+
+button, .btn { 	 
+	&:hover, 
+	{
+		background-color: darken($sub-grey, 10); 
+		color: darken(#000, 10%); 
+	}
+}
+
+
+

@@ -1,0 +1,29 @@
+html, button, input, select, textarea { color: $text-color; }
+html { font-family: Arial, sans-serif; font-style: normal; font-weight: normal; line-height: 1.375; letter-spacing: normal; }
+body { font-size: globalPerc($text-size); }
+body:after { content: "0em"; display: block; height: 0; position: absolute; overflow: hidden; width: 0; }
+h1, h2, h3, h4, h5, h6 { font-weight: bold; margin: 0 0 ($margin/2) 0; }
+h1 { font-size: 4em; line-height: 1; }
+h2 { font-size: 2em; line-height: 1.1; }
+h3 { font-size: 1.5em; line-height: 1.1; }
+h4 { font-size: 1.25em; line-height: 1.1; }
+h5 { font-size: 1.1em; line-height: 1.1; }
+h6 { font-size: 1em; line-height: 1.1; }
+h2:first-child, h3:first-child, p:first-child, blockquote:first-child, img:first-child, h2 + h3, h2 + p, h3 + p, h2 + ol, h3 + ol, h2 + ul, h3 + ul, legend + p { margin-top: 0; }
+p, ol, ul, blockquote, img, table, object, embed, video, audio, figure, figcaption, .paragraph, h3 { margin-top: $margin; }
+p, ol, ul, blockquote, img, table, object, embed, video, audio, figure, figcaption, .paragraph { margin-bottom: $margin; }
+ol, ul { padding-left: $margin*2; }
+li { margin-bottom: $margin/2; margin-top: $margin/2; }
+button, input, select, textarea, label, .trans { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); transition: all .1s ease-in-out; }
+a, a:before, a:after { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); transition: color .1s ease-in-out, background-color .1s ease-in-out; }
+button, .btn, datalist, input, select, textarea { padding: $margin/2 $margin; }
+input, select, textarea { background-color: $input-color; }
+input:focus, select:focus, textarea:focus, input:active, select:active, textarea:active { background-color: $input-focus-color; }
+.list { list-style: none; list-style-image: none; padding-left: 0; }
+.accessibility, .js .js-accessibility { clip: rect(1px, 1px, 1px, 1px); height: 1px; overflow: hidden; position: absolute; width: 1px; }
+.accessibility:focus, .accessibility:active { clip: auto; height: auto; overflow: visible; position: fixed; width: auto; }
+.group:before, .group:after { content: ""; display: table; }
+.group:after { clear: both; }
+.fieldset { @extend .group; }
+.skip-to-main { left:-999px; position: absolute; top: auto; width: 1px; height: 1px; overflow: hidden; z-index: -9999; }
+.skip-to-main:focus, .skip-to-main:active {color: $main-white; background-color: $main-black; left: 0; top: 0; overflow: auto; z-index: 999; }
